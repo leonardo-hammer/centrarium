@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 我是如何配置Terminal的
-categories: macos
+categories: mac
 comments: true
 ---
 
@@ -70,12 +70,6 @@ brew upgrade
 
 macOS自带的Ruby环境，经常会涉及权限问题，sudo，输入管理员密码，运行起来并不安全。所以我使用[chruby](https://github.com/postmodern/chruby)来修改当前的Ruby环境。
 
-#### 创建.ruby-version来指定使用的ruby的版本
-
-{% highlight bash %}
-echo "ruby-2.4.0" > ~/.ruby-version
-{% endhighlight %}
-
 #### 使用Homebrew安装chruby
 
 {% highlight bash %}
@@ -85,8 +79,14 @@ brew install chruby
 #### 安装ruby-install 来获取最新的ruby环境
 
 {% highlight bash %}
-brew install ruby-installer
+brew install ruby-install
 ruby-install ruby
+{% endhighlight %}
+
+#### 创建.ruby-version来指定使用的ruby的版本
+
+{% highlight bash %}
+echo "ruby-2.4.0" > ~/.ruby-version
 {% endhighlight %}
 
 添加配置文件和自动切换ruby版本的脚本到 `~/.bash_profile` 或者 `~/.zshrc` 文件中。

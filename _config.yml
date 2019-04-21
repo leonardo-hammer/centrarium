@@ -1,7 +1,15 @@
 # External gems
 gems:
-#  - jekyll-archives # Sorry, not GitHub pages friendly!
+  - jekyll-archives # Sorry, not GitHub pages friendly!
   - jekyll-sitemap
+
+jekyll-archives:
+  enabled:
+    - categories
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
 
 exclude:
   - "/vendor/"
@@ -13,7 +21,7 @@ email: tuesleep@gmail.com
 name: Leonardo Hammer
 description: >
   A simple yet classy theme for your Jekyll website or blog.
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://tuesleep.com" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
