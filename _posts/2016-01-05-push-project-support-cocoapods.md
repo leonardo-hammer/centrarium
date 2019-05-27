@@ -3,7 +3,7 @@ layout: post
 title: 发布自己的项目到CocoaPods
 categories: ios
 comments: true
-cover:  "assets/chess.png"
+cover:  "/assets/chess.png"
 ---
 
 ## 关于创建项目

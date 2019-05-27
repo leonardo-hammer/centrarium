@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 制作MacOS安装U盘
-categories: macos
-tags: [macOS]
+categories: mac
 comments: true
 ---
 

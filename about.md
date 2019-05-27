@@ -1,7 +1,7 @@
 ---
-layout: page
-title: About
-permalink: /about/
+# layout: page
+# title: About
+# permalink: /about/
 ---
 
 <img src="/assets/profile-placeholder.gif" title="Profile Picture" class="profile">

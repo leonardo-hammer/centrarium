@@ -2,7 +2,6 @@
 layout: post
 title: 各国语言缩写
 categories: other
-tags: [develop, localizable]
 comments: true
 ---
 
