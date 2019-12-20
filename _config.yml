@@ -18,19 +18,19 @@ highlightjs_theme: "googlecode"
 
 # Site settings
 title: Tuesleep
-subtitle: "A simple blog"
+subtitle: ""
 email: tuesleep@gmail.com
-name: Leonardo Hammer
+name: Tuesleep
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  记录我的编程生涯
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://tuesleep.com" # the base hostname & protocol for your site
-cover: "assets/header_image.jpg"
+# cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
 
 # Build settings
 markdown: redcarpet
-paginate: 5
+paginate: 6
 paginate_path: "/page:num/"
 
 # Archive settings (see https://github.com/jekyll/jekyll-archives/)
@@ -89,8 +89,8 @@ social:
 
   - name: GitHub
     icon: github
-    username: leonardo-hammer
-    url: https://github.com/leonardo-hammer
+    username: tuesleep
+    url: https://github.com/tuesleep
     desc: Fork me on GitHub
     share: false
 
